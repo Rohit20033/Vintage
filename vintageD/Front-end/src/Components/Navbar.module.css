@@ -1,0 +1,110 @@
+.outerMain {
+  background-color: rgb(238, 238, 238);
+}
+.aboveNavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  padding: 10px 0px;
+}
+.aboveRBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: small;
+  align-items: center;
+}
+.aboveLBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: small;
+  align-items: center;
+}
+.aboveNavbar p:hover {
+  color: rgb(7, 81, 219);
+  cursor: pointer;
+}
+.nav {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.hr {
+  color: grey;
+}
+.Logo {
+  width: 250px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 10px 0px 0px 0px;
+  font-size: 25px;
+}
+.rightpanel {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 30px;
+  zoom: 0.7;
+}
+
+.graph {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  margin-top: 40px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    zoom: 0.8;
+  }
+  .rightpanel {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    zoom: 0.6;
+  }
+  .aboveNavbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding: 10px 0px;
+    zoom: 0.6;
+  }
+  .banner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .graph {
+    display: grid;
+    gap: 30px;
+    margin-top: 40px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    zoom: 0.5;
+  }
+}
